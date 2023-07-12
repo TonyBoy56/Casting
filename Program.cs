@@ -8,23 +8,11 @@ namespace Casting
         {
             // Examples of Explicit Casting
             double x = 24;
-            int y = 12;
-            float z = 6;
-            char t = '+';
+            int y;
 
-            string s = x.ToString();
-            s = z.ToString();
-            s = t.ToString();
-            s = y.ToString();
+            y = Convert.ToInt32(x);
 
-            //Console.WriteLine(s.GetType());   
-
-            // Examples of Implicit Casting
-
-            byte xVar = 12;
-            short yVar = 13;
-            int zVar = 4;
-            long tVar = 5;
+            Console.WriteLine($"The value of x cast an an INT = {y}");
         }
     }
 }
