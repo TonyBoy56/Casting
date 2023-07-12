@@ -17,7 +17,14 @@ namespace Casting
             s = t.ToString();
             s = y.ToString();
 
-            Console.WriteLine(s.GetType());   
+            //Console.WriteLine(s.GetType());   
+
+            // Examples of Implicit Casting
+
+            byte xVar = 12;
+            short yVar = 13;
+            int zVar = 4;
+            long tVar = 5;
         }
     }
 }
